@@ -2,14 +2,36 @@ import React from "react";
 import styles from "./banner.module.css";
 import Link from "next/link";
 
+const ParallaxImage = () => {
+  const imageUrl = "https://s3-alpha-sig.figma.com/img/06da/50f5/f33b3d7f64c1432824c32c3edf9a01ae?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jn9iMeyHhlz2Dt9EZ9bFzcfoSAMf-cOaTGT7qNLNPoXSK2g8NNGE8AtiUlLSoDlU4AuZek9TaiNE0Oi16FjPazdXDRRiEH3eSxdfYIeFqsnFdCcGTpgCuvkTm842gJbGqPY-hwn6fRRyikpO-t8RNgVCDaXNqUBtcNFpa0rxl7KS4U-jJ~3ZbbQO3LX~Z~OQbzkDQhDglensCPNl6H-DOLbg-rM5N794fwXGWg8tCvEWSP9dcSOcmMtPLJRU1~aptlGnc0z1Tg3-8Ap0FMemOWcVLl-D8L8-ARI4bfGfkLprnMhf3KvF0hFwVTVfu06wJjejT~7bsQCsTw-TU1AJaA__";
+
+  const styles = {
+    container: {
+      position: 'relative',
+      overflow: 'hidden',
+      height: '80%', 
+    },
+    image: {
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: 'auto',
+      transform: 'translate3d(0, 0, 0)',
+    },
+  };
+
 export default function Banner() {
   return (
     <div className="flex overflow-hidden relative flex-col items-center px-16 py-11 min-h-[1024px] max-md:px-5">
+    <div style={styles.container}>
       <img
         loading="lazy"
-        srcSet="https://s3-alpha-sig.figma.com/img/06da/50f5/f33b3d7f64c1432824c32c3edf9a01ae?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jn9iMeyHhlz2Dt9EZ9bFzcfoSAMf-cOaTGT7qNLNPoXSK2g8NNGE8AtiUlLSoDlU4AuZek9TaiNE0Oi16FjPazdXDRRiEH3eSxdfYIeFqsnFdCcGTpgCuvkTm842gJbGqPY-hwn6fRRyikpO-t8RNgVCDaXNqUBtcNFpa0rxl7KS4U-jJ~3ZbbQO3LX~Z~OQbzkDQhDglensCPNl6H-DOLbg-rM5N794fwXGWg8tCvEWSP9dcSOcmMtPLJRU1~aptlGnc0z1Tg3-8Ap0FMemOWcVLl-D8L8-ARI4bfGfkLprnMhf3KvF0hFwVTVfu06wJjejT~7bsQCsTw-TU1AJaA__"
-        className="object-cover absolute inset-0 size-full"
+        src={imageUrl}
+        alt="Parallax Image"
+        style={styles.image}
       />
+    </div>
       <div className="flex relative gap-5 justify-between items-center self-stretch pr-2 w-full text-lg text-white max-md:flex-wrap max-md:max-w-full">
         <div className="flex gap-2 justify-between self-stretch text-2xl whitespace-nowrap">
           <img
