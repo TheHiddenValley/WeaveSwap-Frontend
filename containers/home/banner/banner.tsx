@@ -18,7 +18,7 @@ const Banner = () => {
       left: 0,
       width: '100%',
       height: 'auto',
-      transform: translate3d(0, -30%, 0),
+      transform: 'translate3d(0, -30%, 0)', 
     },
   };
 
