@@ -118,3 +118,5 @@ const ParallaxImage = () => {
     </div>
   );
 }
+
+export default Banner;
