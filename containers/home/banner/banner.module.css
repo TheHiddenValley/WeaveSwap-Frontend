@@ -4,7 +4,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url(../public/BannerBG.png);
+  background-image: url(../public/HomeBG.svg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
