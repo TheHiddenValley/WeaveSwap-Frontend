@@ -6,21 +6,22 @@ const Banner = () => {
   const imageUrl = "https://s3-alpha-sig.figma.com/img/06da/50f5/f33b3d7f64c1432824c32c3edf9a01ae?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jn9iMeyHhlz2Dt9EZ9bFzcfoSAMf-cOaTGT7qNLNPoXSK2g8NNGE8AtiUlLSoDlU4AuZek9TaiNE0Oi16FjPazdXDRRiEH3eSxdfYIeFqsnFdCcGTpgCuvkTm842gJbGqPY-hwn6fRRyikpO-t8RNgVCDaXNqUBtcNFpa0rxl7KS4U-jJ~3ZbbQO3LX~Z~OQbzkDQhDglensCPNl6H-DOLbg-rM5N794fwXGWg8tCvEWSP9dcSOcmMtPLJRU1~aptlGnc0z1Tg3-8Ap0FMemOWcVLl-D8L8-ARI4bfGfkLprnMhf3KvF0hFwVTVfu06wJjejT~7bsQCsTw-TU1AJaA__";
 
   const styles: { container: React.CSSProperties; image: React.CSSProperties } = {
-    container: {
-      position: 'relative',
-      overflow: 'hidden',
-      height: '80%',
-      width: '100%',
-    },
-    image: {
-      position: 'fixed',
-      top: 0,
-      left: 0,
-      width: '100%',
-      height: 'auto',
-      transform: 'translate3d(0, -30%, 0)', 
-    },
-  };
+  container: {
+    position: 'relative',
+    overflow: 'hidden',
+    height: '80%',
+    width: '100%',
+  },
+  image: {
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: 'auto',
+    transform: 'translate3d(0, -30%, 0)',
+    zIndex: -5,
+  },
+};
 
   return (
     <div className="flex overflow-hidden relative flex-col items-center px-16 py-11 min-h-[1024px] max-md:px-5">
