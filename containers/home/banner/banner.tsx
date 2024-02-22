@@ -21,17 +21,16 @@ const ParallaxImage = () => {
     },
   };
 
-export default function Banner() {
   return (
     <div className="flex overflow-hidden relative flex-col items-center px-16 py-11 min-h-[1024px] max-md:px-5">
-    <div style={styles.container}>
-      <img
-        loading="lazy"
-        src={imageUrl}
-        alt="Parallax Image"
-        style={styles.image}
-      />
-    </div>
+      <div style={styles.container}>
+        <img
+          loading="lazy"
+          src={imageUrl}
+          alt="Parallax Image"
+          style={styles.image}
+        />
+      </div>
       <div className="flex relative gap-5 justify-between items-center self-stretch pr-2 w-full text-lg text-white max-md:flex-wrap max-md:max-w-full">
         <div className="flex gap-2 justify-between self-stretch text-2xl whitespace-nowrap">
           <img
