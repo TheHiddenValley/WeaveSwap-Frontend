@@ -3,8 +3,8 @@ import styles from "./banner.module.css";
 import Link from "next/link";
 
 const Banner = () => {
-  const imageUrl = "https://s3-alpha-sig.figma.com/img/06da/50f5/f33b3d7f64c1432824c32c3edf9a01ae?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jn9iMeyHhlz2Dt9EZ9bFzcfoSAMf-cOaTGT7qNLNPoXSK2g8NNGE8AtiUlLSoDlU4AuZek9TaiNE0Oi16FjPazdXDRRiEH3eSxdfYIeFqsnFdCcGTpgCuvkTm842gJbGqPY-hwn6fRRyikpO-t8RNgVCDaXNqUBtcNFpa0rxl7KS4U-jJ~3ZbbQO3LX~Z~OQbzkDQhDglensCPNl6H-DOLbg-rM5N794fwXGWg8tCvEWSP9dcSOcmMtPLJRU1~aptlGnc0z1Tg3-8Ap0FMemOWcVLl-D8L8-ARI4bfGfkLprnMhf3KvF0hFwVTVfu06wJjejT~7bsQCsTw-TU1AJaA__";
-
+  const imageUrl = "/BannerBG.png"; 
+  
   const styles: { container: React.CSSProperties; image: React.CSSProperties } = {
   container: {
     position: 'relative',
