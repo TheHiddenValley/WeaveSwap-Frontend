@@ -32,11 +32,11 @@ const Banner = () => {
           style={styles.image}
         />
       </div>
-      <div className="relative mt-64 text-4xl text-center bg-clip-text max-md:mt-10 max-md:max-w-full color:#FCFFFE">
-        Your One-Stop Access to Decentralised
-        <br />
-        Asset Swapping
-      </div>
+<div className="relative mt-64 text-4xl text-center bg-clip-text max-md:mt-10 max-md:max-w-full" style={{ color: '#FCFFFE' }}>
+  Your One-Stop Access to Decentralised
+  <br />
+  Asset Swapping
+</div>
       <div className="relative mt-10 text-xl font-medium text-center text-neutral-400 max-md:max-w-full">
         Welcome to WeaveSwap, where blockchain meets simplicity. Seamlessly
         exchange assets across different chains with confidence and ease.
