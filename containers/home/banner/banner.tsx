@@ -27,12 +27,10 @@ const Banner = () => {
         <img
           loading="lazy"
           src={imageUrl}
-          alt="Parallax Image"
           style={styles.image}
         />
       </div>
-      <div className="flex relative gap-5 justify-between items-center self-stretch pr-2 w-full text-lg text-white max-md:flex-wrap max-md:max-w-full">
-      <div className="relative mt-64 text-4xl text-center bg-clip-text max-md:mt-10 max-md:max-w-full">
+      <div className="relative mt-64 text-4xl text-center bg-clip-text max-md:mt-10 max-md:max-w-full color:#FCFFFE">
         Your One-Stop Access to Decentralised
         <br />
         Asset Swapping
