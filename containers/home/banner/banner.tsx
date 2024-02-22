@@ -9,7 +9,8 @@ const Banner = () => {
     container: {
       position: 'relative',
       overflow: 'hidden',
-      height: '400px', // Adjust the height as needed
+      height: '80%',
+      width: '100%',
     },
     image: {
       position: 'absolute',
@@ -17,7 +18,6 @@ const Banner = () => {
       left: 0,
       width: '100%',
       height: 'auto',
-      transform: 'translate3d(0, 0, 0)',
     },
   };
 
