@@ -32,24 +32,6 @@ const Banner = () => {
         />
       </div>
       <div className="flex relative gap-5 justify-between items-center self-stretch pr-2 w-full text-lg text-white max-md:flex-wrap max-md:max-w-full">
-        <div className="flex gap-2 justify-between self-stretch text-2xl whitespace-nowrap">
-          <img
-            loading="lazy"
-            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/d563b673a35489d974fd733505b532523f3135089dceb3e471a3760c8dd7904a?apiKey=2df429e67a0d42c1be761c45de2a844e&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/d563b673a35489d974fd733505b532523f3135089dceb3e471a3760c8dd7904a?apiKey=2df429e67a0d42c1be761c45de2a844e&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d563b673a35489d974fd733505b532523f3135089dceb3e471a3760c8dd7904a?apiKey=2df429e67a0d42c1be761c45de2a844e&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/d563b673a35489d974fd733505b532523f3135089dceb3e471a3760c8dd7904a?apiKey=2df429e67a0d42c1be761c45de2a844e&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/d563b673a35489d974fd733505b532523f3135089dceb3e471a3760c8dd7904a?apiKey=2df429e67a0d42c1be761c45de2a844e&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d563b673a35489d974fd733505b532523f3135089dceb3e471a3760c8dd7904a?apiKey=2df429e67a0d42c1be761c45de2a844e&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/d563b673a35489d974fd733505b532523f3135089dceb3e471a3760c8dd7904a?apiKey=2df429e67a0d42c1be761c45de2a844e&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/d563b673a35489d974fd733505b532523f3135089dceb3e471a3760c8dd7904a?apiKey=2df429e67a0d42c1be761c45de2a844e&"
-            className="aspect-[1.14] w-[68px]"
-          />
-          <div className="grow my-auto">WEAVESWAP</div>
-        </div>
-        <div className="flex gap-5 justify-between self-stretch my-auto font-semibold">
-          <div>Swap</div>
-          <div>Pool</div>
-          <div>Lend</div>
-          <div>Social Media</div>
-        </div>
-        <div className="justify-center self-stretch px-2.5 py-3 my-auto font-medium text-black whitespace-nowrap bg-white rounded-lg leading-[78%]">
-          <Link href="/swap">Connect Wallet</Link>
-        </div>
-      </div>
       <div className="relative mt-64 text-4xl text-center bg-clip-text max-md:mt-10 max-md:max-w-full">
         Your One-Stop Access to Decentralised
         <br />
