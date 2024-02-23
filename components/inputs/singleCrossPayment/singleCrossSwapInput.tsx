@@ -197,7 +197,7 @@ export default function SingleCrossSwapInput() {
             From:
           </label>
           <FirstNetworkModal /></div>
-            <hr />
+            <hr className={styles.horizontalRule} />
           <input
             name="quantity"
             defaultValue={amount}
