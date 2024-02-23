@@ -13,7 +13,6 @@ export default function Home() {
         <Network />
         <Swappage />
         <WhyChooseUs />
-        <JoinUs />
       </div>
     </div>
   );
