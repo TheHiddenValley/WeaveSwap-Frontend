@@ -190,9 +190,11 @@ export default function SingleCrossSwapInput() {
     <div>
       <div className={styles.crossInputBody}>
         <div className={styles.swapInputBody}>
+          <div>
           <label htmlFor="success" className={styles.swapLabel}>
             From:
           </label>
+          <TokensDropdown /></div>
           <input
             name="quantity"
             defaultValue={amount}
@@ -200,7 +202,7 @@ export default function SingleCrossSwapInput() {
             className={styles.swapInput}
           />
         </div>
-        <div><TokensDropdown /></div>
+        
       </div>
       <div className={styles.crossChainBctn}>{}</div>
       <div className={styles.crossChainBtnc}>
