@@ -192,7 +192,7 @@ export default function SingleCrossSwapInput() {
     <div>
       <div className={styles.crossInputBody}>
         <div className={styles.swapInputBody}>
-          <div>
+          <div style="display: flex; align-items: center; flex-wrap: nowrap; flex-direction: row; justify-content: flex-start;">
           <label htmlFor="success" className={styles.swapLabel}>
             From:
           </label>
