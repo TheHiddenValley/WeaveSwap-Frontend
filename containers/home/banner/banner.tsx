@@ -13,14 +13,15 @@ const Banner = () => {
     width: '100%',
   },
   image: {
-    position: 'fixed',
-    top: 0,
-    left: 0,
-    width: '100%',
-    height: 'auto',
-    transform: 'translate3d(0, 0, 0)',
-    zIndex: -5,
-  },
+  position: 'fixed',
+  top: 0,
+  left: 0,
+  width: '100%',
+  height: 'auto',
+  transform: 'translate3d(0, 0, 0)',
+  zIndex: -5,
+  opacity: 0.7,
+},
 };
 
   return (
@@ -32,7 +33,7 @@ const Banner = () => {
           style={styles.image}
         />
       </div>
-<div className="relative mt-32 text-4xl text-center bg-clip-text max-md:mt-10 max-md:max-w-full" style={{ color: '#FCFFFE' }}>
+<div className="relative mt-34 text-4xl text-center bg-clip-text max-md:mt-10 max-md:max-w-full" style={{ color: '#FCFFFE' }}>
   Your One-Stop Access to Decentralised
   <br />
   Asset Swapping
