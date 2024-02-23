@@ -191,7 +191,7 @@ export default function SingleCrossSwapInput() {
       <div className={styles.crossInputBody}>
         <div className={styles.swapInputBody}>
           <label htmlFor="success" className={styles.swapLabel}>
-            You Pay
+            From:
           </label>
           <input
             name="quantity"
@@ -200,13 +200,13 @@ export default function SingleCrossSwapInput() {
             className={styles.swapInput}
           />
         </div>
-        <div>{/* <TokensDropdown /> */}</div>
+        <div><TokensDropdown /></div>
       </div>
       <div className={styles.crossChainBctn}>{}</div>
       <div className={styles.crossChainBtnc}>
         {Number.isNaN(amount) || amount === undefined || "" || null ? (
           <div>
-            <div className={styles.errorMessage}>Fill in an amount</div>
+            <div className={styles.errorMessage}>Invalid Value</div>
           </div>
         ) : (
           <div>
