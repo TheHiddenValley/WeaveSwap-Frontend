@@ -1,6 +1,4 @@
 import React from "react";
-import styles from "./index.module.css";
-
 import SingleCrossSwapInput from "@/components/inputs/singleCrossPayment/singleCrossSwapInput";
 import ConnectWalletPage from "@/components/connectWalletPage";
 import { useAddress } from "@thirdweb-dev/react";
