@@ -37,7 +37,7 @@ import { selectActiveChain } from "@/redux/features/activeChain";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-export default function SingleCrossSwapOutput() {
+export default function SingleCrossSwapInput() {
   // Check if the code is running on the client side
   const isClient = typeof window !== "undefined";
   const [formattedNumber, setFormattedNumber] = useState<number | undefined>(
