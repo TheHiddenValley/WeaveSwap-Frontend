@@ -93,3 +93,8 @@
     width: 30%;
   }
 }
+
+hr {
+  width: 100%;
+  margin: 1em 1em;
+}
