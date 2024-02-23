@@ -33,7 +33,7 @@ const Banner = () => {
           style={styles.image}
         />
       </div>
-<div className="relative mt-34 text-4xl text-center bg-clip-text max-md:mt-10 max-md:max-w-full" style={{ color: '#FCFFFE' }}>
+<div className="relative mt-40 text-4xl text-center bg-clip-text max-md:mt-10 max-md:max-w-full" style={{ color: '#FCFFFE' }}>
   Your One-Stop Access to Decentralised
   <br />
   Asset Swapping
@@ -50,7 +50,7 @@ const Banner = () => {
           className="w-6 aspect-square"
         />
       </div>
-      <div className="relative justify-between self-stretch px-16 py-6 mt-56 rounded-3xl border-solid border-[0.6px] border-zinc-500 max-md:px-5 max-md:mt-10 max-md:max-w-full">
+      <div className="relative justify-between self-stretch px-16 py-6 mt-40 rounded-3xl border-solid border-[0.6px] border-zinc-500 max-md:px-5 max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
           <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
             <div className="flex relative flex-col grow justify-center font-medium text-white whitespace-nowrap max-md:mt-10">
