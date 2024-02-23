@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./index.module.css";
 import Image from 'next/image';
-import SingleCrossSwapInput from "@/components/inputs/singleCrossPayment/SingleCrossSwapOutput";
+import SingleCrossSwapOutput from "@/components/inputs/singleCrossPayment/SingleCrossSwapOutput";
 import ConnectWalletPage from "@/components/connectWalletPage";
 import { useAddress } from "@thirdweb-dev/react";
 import FirstNetworkModal from "@/components/modal/firstNetworkModalPage";
