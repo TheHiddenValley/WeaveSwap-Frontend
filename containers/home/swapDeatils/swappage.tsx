@@ -6,20 +6,20 @@ import SecurePng from "../../../assets/png/secure1.png";
 import styles from "./index.module.css";
 export default function Swappage() {
   return (
-<div style={{width: '100%', height: '100%', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 64, display: 'inline-flex'}}>
+<div style={{ width: '100%', height: '100%', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex', marginTop: '5rem' }}>
     <div style={{color: 'white', fontSize: 40, fontFamily: 'Hubot-Sans', fontWeight: '700', wordWrap: 'break-word'}}>What we Offer</div>
-    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 160, display: 'flex'}}>
+    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
         <div style={{width: 1312, paddingLeft: 64, paddingRight: 64, justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
-            <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 40, display: 'inline-flex'}}>
+            <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
                 <div style={{color: 'white', fontSize: 40, fontFamily: 'Hubot-Sans', fontWeight: '700', wordWrap: 'break-word'}}>Autonomous trading platform</div>
                 <div style={{width: 586, color: '#8E8E8E', fontSize: 20, fontFamily: 'Hubot-Sans', fontWeight: '500', lineHeight: 24, wordWrap: 'break-word'}}>Eliminate the need for traditional intermediaries and trade any crypto asset with ease</div>
             </div>
             <div style={{padding: 27.25, background: 'black', borderRadius: 16.35, border: '0.68px #323232 solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16.35, display: 'inline-flex'}}>
-                <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 27.25, display: 'flex'}}>
-                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16.35, display: 'flex'}}>
+                <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
                         <div style={{width: 272.50, justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
                             <div style={{color: 'white', fontSize: 16.35, fontFamily: 'Khand', fontWeight: '600', wordWrap: 'break-word'}}>Swap</div>
-                            <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 10.90, display: 'flex'}}>
+                            <div style={{justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
                                 <div style={{width: 16.35, height: 16.35, position: 'relative'}}>
                                     <div style={{width: 16.35, height: 16.35, left: 0, top: -0, position: 'absolute'}}></div>
                                     <div style={{width: 13.75, height: 13.28, left: 1.07, top: 1.53, position: 'absolute', background: 'white'}}></div>
