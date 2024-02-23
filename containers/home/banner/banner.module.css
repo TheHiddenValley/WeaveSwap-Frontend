@@ -28,7 +28,7 @@ body {
 
 .Banner p {
   font-size: 1em;
-  width: 70%;
+  width: 100%;
   font-weight: bold;
   font-family: "Bruno Ace", cursive;
   text-align: center;
@@ -50,7 +50,7 @@ body {
   margin: 6em auto 1em;
   display: block;
   border: 1px solid white;
-  padding: 1em;
+  padding: 0;
   border-radius: 0.5em;
 }
 
@@ -121,25 +121,25 @@ body {
 
 @media screen and (max-width: 1200px) {
   .Banner h1 {
-    width: 90%;
+    width: 100%;
     font-size: 2.5em;
   }
 }
 
 @media screen and (max-width: 733px) {
   .Banner h1 {
-    width: 95%;
+    width: 100%;
     font-size: 2em;
   }
   .Banner p {
-    width: 96%;
+    width: 100%;
     font-size: 0.8em;
   }
 }
 
 @media screen and (max-width: 509px) {
   .Banner h1 {
-    width: 95%;
+    width: 100%;
     font-size: 1.5em;
   }
 }
