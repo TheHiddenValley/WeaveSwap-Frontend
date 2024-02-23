@@ -6,8 +6,12 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <nav className={`${styles.Navbar} bg-gray-900 text-white`}>
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div style="justify-content: space-between; width: 80%;" class="max-w-screen-xl flex flex-wrap items-center mx-auto p-4">
         <div className="flex gap-5 justify-between items-center text-lg text-white max-md:flex-wrap">
+        <Link
+          href="#"
+          className="flex items-center space-x-3 rtl:space-x-reverse"
+        >
           <div className="flex gap-2 justify-between self-stretch pr-5 text-2xl whitespace-nowrap">
             <img
               loading="lazy"
@@ -16,19 +20,19 @@ export default function Navbar() {
             />
             <div className="grow my-auto">WEAVESWAP</div>
           </div>
+          </Link>
           <div className="flex gap-5 justify-between self-stretch pr-5 my-auto font-semibold">
             <div>Swap</div>
             <div>Pool</div>
             <div>Lend</div>
             <div>Social Media</div>
           </div>
-          <div className="justify-center self-stretch px-2.5 py-3 my-auto font-medium text-black whitespace-nowrap bg-white rounded-lg leading-[78%]">
-            <ConnectWallet
-              theme={"dark"}
-              modalTitle={"weaveswap"}
-              modalSize={"wide"}
-            />
-          </div>
+        <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <ConnectWallet
+            theme={"dark"}
+            modalTitle={"weaveswap"}
+            modalSize={"wide"}
+          />
         </div>
       </div>
     </nav>
