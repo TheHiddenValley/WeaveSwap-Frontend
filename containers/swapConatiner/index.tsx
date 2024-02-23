@@ -11,6 +11,14 @@ import CoinPrice from "@/components/coinPrice/Coinprice";
 
 const OneSVG = () => <Image src="/1.svg" alt="One SVG" width={16} height={16} />;
 const Cog6ToothSVG = () => <Image src="/cog-6-tooth.svg" alt="Cog 6 Tooth SVG" width={16} height={16} />;
+const ArrowsRightLeft = () => (
+  <button type="button" onClick={handleClick}>
+    <Image src="/arrows-right-left.svg" alt="Cog 6 Tooth SVG" width={16} height={16} />
+  </button>
+);
+const handleClick = () => {
+  // Handle button click event
+};
 
 export default function SwapContainer() {
   const address = useAddress();
@@ -42,7 +50,11 @@ export default function SwapContainer() {
               <Cog6ToothSVG />
               </div>
             </div>
-            <hr />
+
+            <div>
+              <SingleCrossSwapInput />
+            </div>
+            <ArrowsRightLeft />
             <div>
               <SingleCrossSwapInput />
             </div>
