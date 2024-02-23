@@ -13,12 +13,12 @@ const Banner = () => {
     width: '100%',
   },
   image: {
-    position: 'fixed',
+    position: 'static',
     top: 0,
     left: 0,
     width: '100%',
     height: 'auto',
-    transform: 'translate3d(0, -30%, 0)',
+    transform: 'translate3d(0, 0, 0)',
     zIndex: -5,
   },
 };
