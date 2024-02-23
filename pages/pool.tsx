@@ -9,16 +9,10 @@ import SecondNetworkModal from "@/components/modal/secondNetworkModal";
 
 import CoinPrice from "@/components/coinPrice/Coinprice";
 
-export default function SwapPage() {
+export default function pool() {
   const address = useAddress();
   if (!address)
     return (
-      <div>
-        <ConnectWalletPage />
-      </div>
-    );
-
-  return (
     <div className={styles.SwapContainer}>
       <div style={{ color: "white", fontSize: 32, fontFamily: "Khand", fontWeight: 700, letterSpacing: 0.64, wordWrap: "break-word" }}>
         Put your funds to work by providing for launchpad liquidity
