@@ -1,9 +1,9 @@
 .Navbar {
-  background-color: black;
+  background-color: transparent;
 }
 
 .Navbar ul {
-  background-color: black;
+  background-color: transparent;
   display: flex;
   align-items: center;
 }
