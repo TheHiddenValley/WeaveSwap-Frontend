@@ -3,7 +3,7 @@ import styles from "./banner.module.css";
 import Link from "next/link";
 
 const Banner = () => {
-  const imageUrl = "/HomeBG.jpg";
+  const imageUrl = "/BannerBG.jpg";
   
   const styles: { container: React.CSSProperties; image: React.CSSProperties } = {
   container: {
