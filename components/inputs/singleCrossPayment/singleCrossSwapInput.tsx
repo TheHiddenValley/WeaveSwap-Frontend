@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import TokensDropdown from "../../dropdown/tokensDropdown";
 import styles from "./singleswap.module.css";
+import FirstNetworkModal from "@/components/modal/firstNetworkModalPage";
+import CoinPrice from "@/components/coinPrice/Coinprice";
 import {
   useContract,
   useContractWrite,
@@ -194,7 +196,7 @@ export default function SingleCrossSwapInput() {
           <label htmlFor="success" className={styles.swapLabel}>
             From:
           </label>
-          <TokensDropdown /></div>
+          <FirstNetworkModal /></div>
           <input
             name="quantity"
             defaultValue={amount}
@@ -210,6 +212,7 @@ export default function SingleCrossSwapInput() {
           <div>
             <div className={styles.errorMessage}>Invalid Value</div>
           </div>
+      <CoinPrice />
         ) : (
           <div>
             {getFunderBalanceNumber &&
