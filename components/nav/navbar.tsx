@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className={`${styles.Navbar} bg-gray-900 text-white`}>
       <div style={{ justifyContent: "space-between", width: "80%" }} className="max-w-screen-xl flex flex-wrap items-center mx-auto p-4">
-        <Link href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <div className="flex gap-2 justify-between self-stretch pr-5 text-2xl whitespace-nowrap">
             <img
               loading="lazy"
