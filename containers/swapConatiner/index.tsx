@@ -44,8 +44,7 @@ export default function SwapContainer() {
           <section>
             <div className={styles.SwapDropDown}>
               <h1 className={styles.crossChain_Header}>Swap</h1>
-              <h5>to</h5>
-              <div className="Frame15" style={{width: '100%', height: '100%', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+              <div className="Frame15" style={{alignItems: 'center', gap: 16, display: 'inline-flex'}}>
               <OneSVG />
               <Cog6ToothSVG />
               </div>
