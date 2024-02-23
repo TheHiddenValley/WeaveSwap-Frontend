@@ -35,7 +35,6 @@ export default function SwapContainer() {
       {/* <h1 className={styles.crossChain_Header}>Cross Chain Swap</h1> */}
 
       <div className={styles.coinDetailsTag}>
-        <CoinPrice />
       </div>
       <div className={styles.crossChainSection}>
         <section className={`${styles.crossChain_Header}`}>
