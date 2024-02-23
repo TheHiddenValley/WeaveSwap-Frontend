@@ -212,7 +212,6 @@ export default function SingleCrossSwapInput() {
           <div>
             <div className={styles.errorMessage}>Invalid Value</div>
           </div>
-      <CoinPrice />
         ) : (
           <div>
             {getFunderBalanceNumber &&
