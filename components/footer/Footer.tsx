@@ -6,6 +6,7 @@ export default function FooterBody() {
   return (
     <footer
       className={`${styles.footerBg} container rounded-lg shadow bg-gray-900`}
+      style={{ backgroundColor: "#030C1A" }} // Added backgroundColor here
     >
 <div style={{width: '100%', height: '100%', paddingTop: 64, paddingBottom: 64, borderTop: '0.80px #333333 solid', justifyContent: 'center', alignItems: 'center', gap: 200, display: 'inline-flex'}}>
     <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 32, display: 'inline-flex'}}>
