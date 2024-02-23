@@ -10,8 +10,8 @@ export default function ConnectWalletPage() {
       <div>
         <Image src={DeployImg} alt="DeployImg" width={500} height={500} />
       </div>
-      <h2>Please, connect your wallet</h2>
-      <p>Please connect your wallet to see to be to swap on Weave</p>
+      <h2>Connect</h2>
+      <p>Please connect your wallet to proceed further</p>
 
       <div className={styles.ConnectWallet}>
         <ConnectWallet />
