@@ -1,13 +1,17 @@
 import React from "react";
 import styles from "./index.module.css";
-
+import Image from 'next/image';
 import SingleCrossSwapInput from "@/components/inputs/singleCrossPayment/singleCrossSwapInput";
 import ConnectWalletPage from "@/components/connectWalletPage";
 import { useAddress } from "@thirdweb-dev/react";
 import FirstNetworkModal from "@/components/modal/firstNetworkModalPage";
 import SecondNetworkModal from "@/components/modal/secondNetworkModal";
-
 import CoinPrice from "@/components/coinPrice/Coinprice";
+
+
+const OneSVG = () => <Image src="/1.svg" alt="One SVG" width={16} height={16} />;
+const Cog6ToothSVG = () => <Image src="/cog-6-tooth.svg" alt="Cog 6 Tooth SVG" width={16} height={16} />;
+
 export default function SwapContainer() {
   const address = useAddress();
   if (!address)
@@ -31,9 +35,12 @@ export default function SwapContainer() {
         <div>
           <section>
             <div className={styles.SwapDropDown}>
-              <FirstNetworkModal />
+              <h1 className={styles.crossChain_Header}>Swap</h1>
               <h5>to</h5>
-              <SecondNetworkModal />
+              <div className="Frame15" style={{width: '100%', height: '100%', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+              <OneSVG />
+              <Cog6ToothSVG />
+              </div>
             </div>
             <hr />
             <div>
