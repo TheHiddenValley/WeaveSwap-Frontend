@@ -13,7 +13,7 @@ const Banner = () => {
     width: '100%',
   },
   image: {
-    position: 'static',
+    position: 'fixed',
     top: 0,
     left: 0,
     width: '100%',
@@ -32,7 +32,7 @@ const Banner = () => {
           style={styles.image}
         />
       </div>
-<div className="relative mt-64 text-4xl text-center bg-clip-text max-md:mt-10 max-md:max-w-full" style={{ color: '#FCFFFE' }}>
+<div className="relative mt-32 text-4xl text-center bg-clip-text max-md:mt-10 max-md:max-w-full" style={{ color: '#FCFFFE' }}>
   Your One-Stop Access to Decentralised
   <br />
   Asset Swapping
