@@ -12,7 +12,7 @@ export default function Swappage() {
         <div style={{width: 1312, paddingLeft: 64, paddingRight: 64, justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
             <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
                 <div style={{color: 'white', fontSize: 40, fontFamily: 'Hubot-Sans', fontWeight: '700', wordWrap: 'break-word'}}>Autonomous trading platform</div>
-                <div style={{width: 586, color: '#8E8E8E', fontSize: 20, fontFamily: 'Hubot-Sans', fontWeight: '500', lineHeight: 24, wordWrap: 'break-word'}}>Eliminate the need for traditional intermediaries and trade any crypto asset with ease</div>
+                <div style={{width: 586, color: '#8E8E8E', fontSize: 20, fontFamily: 'Hubot-Sans', fontWeight: '500', lineHeight: '2em', wordWrap: 'break-word'}}>Eliminate the need for traditional intermediaries and trade any crypto asset with ease</div>
             </div>
             <div style={{padding: 27.25, background: 'black', borderRadius: 16.35, border: '0.68px #323232 solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16.35, display: 'inline-flex'}}>
                 <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
@@ -52,7 +52,7 @@ export default function Swappage() {
                                             <div style={{color: 'white', fontSize: 12.26, fontFamily: 'Khand', fontWeight: '500', wordWrap: 'break-word'}}>23.72</div>
                                         </div>
                                         <div style={{padding: 2.72, background: 'linear-gradient(107deg, #23DF81 0%, #11C9BF 24%, #001F55 100%)', borderRadius: 3.41, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 6.81, display: 'inline-flex'}}>
-                                            <div style={{color: 'black', fontSize: 9.54, fontFamily: 'Khand', fontWeight: '500', lineHeight: 9.54, wordWrap: 'break-word'}}>Max</div>
+                                            <div style={{color: 'black', fontSize: 9.54, fontFamily: 'Khand', fontWeight: '500', lineHeight: '2em', wordWrap: 'break-word'}}>Max</div>
                                         </div>
                                     </div>
                                 </div>
@@ -159,7 +159,7 @@ export default function Swappage() {
                         <div style={{color: 'white', fontSize: 6.61, fontFamily: 'Khand', fontWeight: '600', wordWrap: 'break-word'}}>Social Media</div>
                     </div>
                     <div style={{paddingLeft: 3.67, paddingRight: 3.67, paddingTop: 4.41, paddingBottom: 4.41, background: 'linear-gradient(274deg, #001F55 7%, #0EC3CD 48%, #23DF81 100%)', borderRadius: 2.94, justifyContent: 'center', alignItems: 'center', gap: 3.67, display: 'flex'}}>
-                        <div style={{color: 'black', fontSize: 6.61, fontFamily: 'Khand', fontWeight: '500', lineHeight: 5.14, wordWrap: 'break-word'}}>Connect Wallet</div>
+                        <div style={{color: 'black', fontSize: 6.61, fontFamily: 'Khand', fontWeight: '500', lineHeight: '2em', wordWrap: 'break-word'}}>Connect Wallet</div>
                     </div>
                 </div>
                 <div style={{left: 23.50, top: 60.22, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 23.50, display: 'inline-flex'}}>
@@ -510,7 +510,7 @@ export default function Swappage() {
                                                     <div style={{color: 'white', fontSize: 9.24, fontFamily: 'Khand', fontWeight: '500', wordWrap: 'break-word'}}>23.72</div>
                                                 </div>
                                                 <div style={{padding: 2.05, background: 'linear-gradient(107deg, #23DF81 0%, #11C9BF 24%, #001F55 100%)', borderRadius: 2.57, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 5.13, display: 'inline-flex'}}>
-                                                    <div style={{color: 'black', fontSize: 7.18, fontFamily: 'Khand', fontWeight: '500', lineHeight: 7.18, wordWrap: 'break-word'}}>Max</div>
+                                                    <div style={{color: 'black', fontSize: 7.18, fontFamily: 'Khand', fontWeight: '500', lineHeight: '2em', wordWrap: 'break-word'}}>Max</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -546,7 +546,7 @@ export default function Swappage() {
                                                     <div style={{color: 'white', fontSize: 9.24, fontFamily: 'Khand', fontWeight: '500', wordWrap: 'break-word'}}>23.72</div>
                                                 </div>
                                                 <div style={{padding: 2.05, background: 'linear-gradient(107deg, #23DF81 0%, #11C9BF 24%, #001F55 100%)', borderRadius: 2.57, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 5.13, display: 'inline-flex'}}>
-                                                    <div style={{color: 'black', fontSize: 7.18, fontFamily: 'Khand', fontWeight: '500', lineHeight: 7.18, wordWrap: 'break-word'}}>Max</div>
+                                                    <div style={{color: 'black', fontSize: 7.18, fontFamily: 'Khand', fontWeight: '500', lineHeight: '2em', wordWrap: 'break-word'}}>Max</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -597,13 +597,13 @@ export default function Swappage() {
             </div>
             <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 40, display: 'inline-flex'}}>
                 <div style={{color: 'white', fontSize: 40, fontFamily: 'Hubot-Sans', fontWeight: '700', wordWrap: 'break-word'}}>Liquidity provider</div>
-                <div style={{width: 586, color: '#8E8E8E', fontSize: 20, fontFamily: 'Hubot-Sans', fontWeight: '500', lineHeight: 24, wordWrap: 'break-word'}}>Earn passive income by putting your funds to work by providing to a launchpad liquidity.</div>
+                <div style={{width: 586, color: '#8E8E8E', fontSize: 20, fontFamily: 'Hubot-Sans', fontWeight: '500', lineHeight: '2em', wordWrap: 'break-word'}}>Earn passive income by putting your funds to work by providing to a launchpad liquidity.</div>
             </div>
         </div>
         <div style={{width: 1312, paddingLeft: 64, paddingRight: 64, justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
             <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 40, display: 'inline-flex'}}>
                 <div style={{color: 'white', fontSize: 40, fontFamily: 'Hubot-Sans', fontWeight: '700', wordWrap: 'break-word'}}>Decentralized lending Protocol</div>
-                <div style={{width: 586, color: '#8E8E8E', fontSize: 20, fontFamily: 'Hubot-Sans', fontWeight: '500', lineHeight: 24, wordWrap: 'break-word'}}>Without the need of intermediaries such as banks or financial institutions, lend and borrow crypto assets.</div>
+                <div style={{width: 586, color: '#8E8E8E', fontSize: 20, fontFamily: 'Hubot-Sans', fontWeight: '500', lineHeight: '2em', wordWrap: 'break-word'}}>Without the need of intermediaries such as banks or financial institutions, lend and borrow crypto assets.</div>
             </div>
             <div style={{width: 529, height: 331, position: 'relative', background: 'black'}}>
                 <div style={{width: 482.35, left: 23.51, top: 14.69, position: 'absolute', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
@@ -618,7 +618,7 @@ export default function Swappage() {
                         <div style={{color: 'white', fontSize: 6.61, fontFamily: 'Khand', fontWeight: '600', wordWrap: 'break-word'}}>Social Media</div>
                     </div>
                     <div style={{paddingLeft: 3.67, paddingRight: 3.67, paddingTop: 4.41, paddingBottom: 4.41, background: 'linear-gradient(274deg, #001F55 7%, #0EC3CD 48%, #23DF81 100%)', borderRadius: 2.94, justifyContent: 'center', alignItems: 'center', gap: 3.67, display: 'flex'}}>
-                        <div style={{color: 'black', fontSize: 6.61, fontFamily: 'Khand', fontWeight: '500', lineHeight: 5.14, wordWrap: 'break-word'}}>Connect Wallet</div>
+                        <div style={{color: 'black', fontSize: 6.61, fontFamily: 'Khand', fontWeight: '500', lineHeight: '2em', wordWrap: 'break-word'}}>Connect Wallet</div>
                     </div>
                 </div>
                 <div style={{left: 23.51, top: 60.25, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 14.69, display: 'inline-flex'}}>
@@ -835,7 +835,7 @@ export default function Swappage() {
                                                     <div style={{color: 'white', fontSize: 9.93, fontFamily: 'Khand', fontWeight: '500', wordWrap: 'break-word'}}>23.72</div>
                                                 </div>
                                                 <div style={{padding: 2.21, background: 'linear-gradient(107deg, #23DF81 0%, #11C9BF 24%, #001F55 100%)', borderRadius: 2.76, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 5.52, display: 'inline-flex'}}>
-                                                    <div style={{color: 'black', fontSize: 7.72, fontFamily: 'Khand', fontWeight: '500', lineHeight: 7.72, wordWrap: 'break-word'}}>Max</div>
+                                                    <div style={{color: 'black', fontSize: 7.72, fontFamily: 'Khand', fontWeight: '500', lineHeight: '2em', wordWrap: 'break-word'}}>Max</div>
                                                 </div>
                                             </div>
                                         </div>
