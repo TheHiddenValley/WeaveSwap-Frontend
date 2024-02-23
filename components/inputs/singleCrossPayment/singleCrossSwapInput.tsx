@@ -197,6 +197,7 @@ export default function SingleCrossSwapInput() {
             From:
           </label>
           <FirstNetworkModal /></div>
+            <hr />
           <input
             name="quantity"
             defaultValue={amount}
@@ -204,8 +205,8 @@ export default function SingleCrossSwapInput() {
             className={styles.swapInput}
           />
         </div>
-        
       </div>
+      
       <div className={styles.crossChainBctn}>{}</div>
       <div className={styles.crossChainBtnc}>
         {Number.isNaN(amount) || amount === undefined || "" || null ? (
