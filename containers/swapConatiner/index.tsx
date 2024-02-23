@@ -13,7 +13,7 @@ import CoinPrice from "@/components/coinPrice/Coinprice";
 const OneSVG = () => <Image src="/1.svg" alt="One SVG" width={16} height={16} />;
 const Cog6ToothSVG = () => <Image src="/cog-6-tooth.svg" alt="Cog 6 Tooth SVG" width={16} height={16} />;
 const ArrowsRightLeft = () => (
-  <button type="button" onClick={handleClick}>
+  <button type="button" onClick={handleClick} style={{ width: '100%', display: 'flex', justifyContent: 'space-evenly' }}>
     <Image src="/arrows-right-left.svg" alt="Cog 6 Tooth SVG" width={16} height={16} />
   </button>
 );
