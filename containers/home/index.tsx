@@ -4,13 +4,17 @@ import Network from "./networks/Network";
 import Swappage from "./swapDeatils/swappage";
 import JoinUs from "@/components/joinUs/JoinUs";
 import WhyChooseUs from "./whyChoose/WhyChooseUs";
+
 export default function Home() {
   return (
     <div>
       <Banner />
-      <Network />
-      <Swappage />
-      <WhyChooseUs /> <JoinUs />
+      <div style={{ backgroundColor: "#030C1A" }}>
+        <Network />
+        <Swappage />
+        <WhyChooseUs />
+        <JoinUs />
+      </div>
     </div>
   );
 }
