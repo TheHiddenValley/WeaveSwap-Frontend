@@ -29,6 +29,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  color: white;
 }
 .crossChain_Header button {
   padding: 0.5em 1em;
