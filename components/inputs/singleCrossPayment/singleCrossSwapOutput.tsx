@@ -36,7 +36,7 @@ import { selectActiveChain } from "@/redux/features/activeChain";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-export default function SingleCrossSwapInput() {
+export default function SingleCrossSwapOutput() {
   // Check if the code is running on the client side
   const isClient = typeof window !== "undefined";
   const [formattedNumber, setFormattedNumber] = useState<number | undefined>(
@@ -194,7 +194,7 @@ export default function SingleCrossSwapInput() {
         <div className={styles.swapInputBody}>
           <div style={{ display: 'flex', alignItems: 'center', flexWrap: 'nowrap', flexDirection: 'row', justifyContent: 'flex-start' }}>
           <label htmlFor="success" className={styles.swapLabel}>
-            From:
+            To:
           </label>
           <FirstNetworkModal /></div>
             <hr className={styles.horizontalRule} />
