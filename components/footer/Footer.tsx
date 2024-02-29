@@ -6,59 +6,49 @@ export default function FooterBody() {
   return (
     <footer
       className={`${styles.footerBg} container rounded-lg shadow bg-gray-900`}
-      style={{ backgroundColor: "#030C1A", marginTop: "12px" }} // Added marginTop here
     >
-<div style={{width: '100%', height: '100%', paddingTop: 64, paddingBottom: 64, borderTop: '0.80px #333333 solid', justifyContent: 'center', alignItems: 'center', gap: 200, display: 'inline-flex'}}>
-    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 32, display: 'inline-flex'}}>
-        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
-            <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
-                <img style={{width: 68, height: 60}} src="https://via.placeholder.com/68x60" />
-                <div style={{width: 167, color: 'white', fontSize: 24, fontFamily: 'Kavoon', fontWeight: '400', wordWrap: 'break-word'}}>WEAVESWAP</div>
-            </div>
-            <div style={{width: 390, color: '#8E8E8E', fontSize: 18, fontFamily: 'Hubot-Sans', fontWeight: '500', wordWrap: 'break-word'}}>Make trading more easier with weaveswap</div>
+      <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div className="sm:flex sm:items-center sm:justify-between">
+          <Link
+            href="https://flowbite.com/"
+            className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
+          >
+            {/* <Image
+              src="https://flowbite.com/docs/images/logo.svg"
+              className="h-8"
+              alt="Flowbite Logo"
+            /> */}
+            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              WeaveSwap
+            </span>
+          </Link>
+          <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+            <li>
+              <Link href="#" className="hover:underline me-4 md:me-6">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link href="#" className="hover:underline me-4 md:me-6">
+                Privacy Policy
+              </Link>
+            </li>
+            <li>
+              <Link href="#" className="hover:underline">
+                Contact
+              </Link>
+            </li>
+          </ul>
         </div>
-        <div style={{justifyContent: 'flex-start', alignItems: 'flex-end', gap: 32, display: 'inline-flex'}}>
-            <div style={{width: 24, height: 24, position: 'relative'}}>
-                <div style={{width: 22, height: 19.89, left: 1, top: 1.90, position: 'absolute', background: 'white'}}></div>
-            </div>
-            <div style={{width: 24, height: 24, position: 'relative'}}>
-                <div style={{width: 24, height: 18.29, left: 0, top: 2.64, position: 'absolute', background: 'white'}}></div>
-            </div>
-            <div style={{width: 24, height: 24, position: 'relative'}}>
-                <div style={{width: 24, height: 24, left: 0, top: 0, position: 'absolute', background: 'white'}}></div>
-            </div>
-            <div style={{width: 24, height: 24, position: 'relative'}}>
-                <div style={{width: 24, height: 24, left: 0, top: 0, position: 'absolute', background: 'white'}}></div>
-            </div>
-        </div>
-    </div>
-    <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 88, display: 'flex'}}>
-        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 40, display: 'inline-flex'}}>
-            <div style={{color: 'white', fontSize: 20, fontFamily: 'Hubot-Sans', fontWeight: '700', wordWrap: 'break-word'}}>Company</div>
-            <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
-                <div style={{color: 'white', fontSize: 18, fontFamily: 'Hubot-Sans', fontWeight: '500', wordWrap: 'break-word'}}>Home</div>
-                <div style={{color: 'white', fontSize: 18, fontFamily: 'Hubot-Sans', fontWeight: '500', wordWrap: 'break-word'}}>About Us</div>
-                <div style={{color: 'white', fontSize: 18, fontFamily: 'Hubot-Sans', fontWeight: '500', wordWrap: 'break-word'}}>Community</div>
-            </div>
-        </div>
-        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 40, display: 'inline-flex'}}>
-            <div style={{color: 'white', fontSize: 20, fontFamily: 'Hubot-Sans', fontWeight: '700', wordWrap: 'break-word'}}>Product</div>
-            <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
-                <div style={{color: 'white', fontSize: 18, fontFamily: 'Hubot-Sans', fontWeight: '500', wordWrap: 'break-word'}}>Swap</div>
-                <div style={{color: 'white', fontSize: 18, fontFamily: 'Hubot-Sans', fontWeight: '500', wordWrap: 'break-word'}}>Pool</div>
-                <div style={{color: 'white', fontSize: 18, fontFamily: 'Hubot-Sans', fontWeight: '500', wordWrap: 'break-word'}}>Lend</div>
-            </div>
-        </div>
-        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 40, display: 'inline-flex'}}>
-            <div style={{color: 'white', fontSize: 20, fontFamily: 'Hubot-Sans', fontWeight: '700', wordWrap: 'break-word'}}>Resources</div>
-            <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
-                <div style={{color: 'white', fontSize: 18, fontFamily: 'Hubot-Sans', fontWeight: '500', wordWrap: 'break-word'}}>Ecosystem</div>
-                <div style={{color: 'white', fontSize: 18, fontFamily: 'Hubot-Sans', fontWeight: '500', wordWrap: 'break-word'}}>For developers</div>
-                <div style={{color: 'white', fontSize: 18, fontFamily: 'Hubot-Sans', fontWeight: '500', wordWrap: 'break-word'}}>Tokenisation</div>
-            </div>
-        </div>
-    </div>
-</div>
+        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          © 2023
+          <Link href="/" className="hover:underline">
+            WeaveSwap
+          </Link>
+          . All Rights Reserved.
+        </span>
+      </div>
     </footer>
   );
 }
